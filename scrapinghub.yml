@@ -1,1 +1,2 @@
-requirements_file: requirements.txt
+requirements:
+    file: Pipfile
