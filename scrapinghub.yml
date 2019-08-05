@@ -1,0 +1,3 @@
+project: 18255
+stacks:
+    default: scrapy:1.4
