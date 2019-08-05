@@ -23,7 +23,6 @@ class LocalInfo(scrapy.Spider):
         }
         item['versions'] = _versions()
         item['environ'] = os.environ.copy()
-        item['extra'] = 'some-other-data'
         return item
 
 
