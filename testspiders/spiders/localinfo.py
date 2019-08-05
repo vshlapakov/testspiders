@@ -14,6 +14,7 @@ class LocalInfo(scrapy.Spider):
     start_urls = 'https://example.com',
 
     def parse(self, response):
+        # some comment
         item = {
             '__file__': __file__,
             '__name__': __name__,
@@ -22,6 +23,7 @@ class LocalInfo(scrapy.Spider):
         }
         item['versions'] = _versions()
         item['environ'] = os.environ.copy()
+        item['extra'] = 'some-data'
         return item
 
 
