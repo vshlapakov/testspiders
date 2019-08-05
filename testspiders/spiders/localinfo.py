@@ -17,6 +17,7 @@ class LocalInfo(scrapy.Spider):
         # some comment
         # another comment
         # one more comment
+        # and one more
         item = {
             '__file__': __file__,
             '__name__': __name__,
